@@ -12,6 +12,10 @@ nav{
 	 box-shadow: 0 0 2px 0 #888888;
 	 background-color: #fff;
 }
+.container{
+	min-height:100%;
+	position:relative;
+}
 .name{
 	height:100px;
 	width: 250px;
@@ -45,6 +49,11 @@ nav{
 }
 .navlinks a:visited{
 	color: #777777;
+}
+@media only screen and (max-width: 760px) {
+    .name {
+        margin-left:0;
+    }
 }
 #content{
 	margin:50px 100px 50px 15%;
@@ -96,6 +105,7 @@ font-weight: bold;
 	float: left;
 
 }
+
 
 .sidebar img{
 	height:61px;
