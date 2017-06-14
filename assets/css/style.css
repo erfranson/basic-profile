@@ -148,7 +148,9 @@ form div{
 	width: 100%;
 	height: auto;
 	display: inline-block;
-
+}
+textarea{
+	width: 92%;
 }
 .footer{
 	width:100%;
