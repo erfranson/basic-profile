@@ -50,11 +50,7 @@ nav{
 .navlinks a:visited{
 	color: #777777;
 }
-@media only screen and (max-width: 760px) {
-    .name {
-        margin-left:0;
-    }
-}
+
 #content{
 	margin:50px 100px 0px 15%;
 	padding-bottom:100px;
@@ -70,14 +66,14 @@ nav{
 	height: auto;
 }
 .sidebar{
-width:20%;
-display: inline-block;
-background-color: #fff;
-font-family: 'Georgia', Times, Times New Roman, serif;
-color: #4aaaa5;
-position: absolute;
-border: solid 1px #dddddd;
-font-weight: bold;
+	width:20%;
+	display: inline-block;
+	background-color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	position: absolute;
+	border: solid 1px #dddddd;
+	font-weight: bold;
 }
 .frame{
 	padding: 0 20px 20px 20px;
@@ -115,7 +111,7 @@ font-weight: bold;
 .sidebar a{
 	margin-left: 5px;
 }
-.sidebar .link{
+.link{
 	margin-top: 10px;
 	margin-bottom: 30px;
 	padding: 10px;
@@ -183,4 +179,23 @@ textarea{
 	margin: 0 auto;
 	padding: 45px;
 	font-size: 12px;
+}
+
+@media only screen and (max-width: 760px) {
+    .name {
+        margin-left:0;
+    }
+    .navlinks{
+    	padding-left: 10px;
+    }
+    .sidebar h3{
+    	text-align: center;
+    	width: 85%; 	
+    }
+    .link{
+    	padding: 30px 30px 10px 30px;
+    }
+    .main p{
+    	display: block;
+    }
 }
